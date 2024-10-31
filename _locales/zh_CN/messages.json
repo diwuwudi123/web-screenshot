@@ -1,21 +1,15 @@
 {
 	"pluginName": {
-		"message": "web-screenshot"
+		"message": "马良"
 	},
 	"pluginDesc": {
-		"message": "给页面中的DOM或者任意区域截图~"
-	},
-	"domScreenshotDesc":{ 
-		"message": "DOM 截图"
+		"message": "给页面中的任意区域截图~"
 	},
 	"areaScreenshotDesc":{ 
 		"message": "区域截图"
 	},
 	"modelLabel":{ 
 		"message": "保存为"
-	},
-	"modelOptionFile":{ 
-		"message": "文件"
 	},
 	"saveSuccessMsg":{ 
 		"message": "保存成功"
@@ -25,5 +19,11 @@
 	},
 	"errorMsg":{
 		"message": "截图失败！请刷新页面或者重启浏览器尝试。"
+	},
+	"errorMsg":{
+		"message": "截图失败！请刷新页面或者重启浏览器尝试。"
+	},
+	"createTask":{
+		"message": "创建任务"
 	}
 }

@@ -3,20 +3,21 @@
 <head>
     <title></title>
     <link rel="stylesheet" href="./index.css">
+    <script src="./jquery.min.js"></script>
+
 </head>
 
 <body>
+    
     <div class="content">
         <div class="form-item">
-            <label for="model" id="model-label"></label> 
-            <select id="model">
-                <option value="file" id="model-option-file"></option>
-                <option value="base64" id="model-option-base64">base64</option>
-            </select>
+            <label for="model" id="plugin_name"></label> 
+            <p class="desc"></p>
         </div>
         <div class="btns">
-            <button id="dom-screenshot"></button>
             <button id="area-screenshot"></button>
+            <button id="create_task"></button>
+            <button id="manage_task"></button>
         </div>
     </div>
     <script src="./index.js"></script>

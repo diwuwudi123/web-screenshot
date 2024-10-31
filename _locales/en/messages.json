@@ -1,21 +1,15 @@
 {
 	"pluginName": {
-		"message": "web screenshot"
+		"message": "maliang"
 	},
 	"pluginDesc": {
-		"message": "Take a screenshot of the DOM or any area of the page"
-	},
-	"domScreenshotDesc":{ 
-		"message": "DOM"
+		"message": "Take a screenshot of the any area of the page"
 	},
 	"areaScreenshotDesc":{ 
 		"message": "area"
 	},
 	"modelLabel":{ 
 		"message": "Save As"
-	},
-	"modelOptionFile":{ 
-		"message": "File"
 	},
 	"saveSuccessMsg":{ 
 		"message": "Save Success"
@@ -25,5 +19,14 @@
 	},
 	"errorMsg":{
 		"message": "Screenshot failed! Please refresh the page or restart the browser."
+	},
+	"desc":{
+		"message": "web screenshot tool"
+	},
+	"manageTask":{
+		"message": "manageTask"
+	},
+	"createTask":{
+		"message": "createTask"
 	}
 }

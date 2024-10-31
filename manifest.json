@@ -3,7 +3,7 @@
     "version": "0.1",
     "manifest_version": 3,
     "description": "__MSG_pluginDesc__", 
-    "author": "1746809408@qq.com", 
+    "author": "diwuwudi123@outlook.com", 
 	"default_locale": "zh_CN",
     "icons": {
         "16": "/icons/16.png",
@@ -32,7 +32,8 @@
             ],
             "js": [
                 "./libs/cropper.min.js",
-                "content.js"
+                "content.js",
+                "jquery.min.js"
             ],
             "matches": [
                 "<all_urls>"
@@ -40,12 +41,6 @@
         }
     ],
     "commands": {
-        "domScreenshot": {
-            "description": "__MSG_domScreenshotDesc__",
-            "suggested_key": {
-                "default": "Alt+Shift+D"
-            }
-        }, 
         "areaScreenshot": {
             "description": "__MSG_areaScreenshotDesc__",
             "suggested_key": {
@@ -55,11 +50,10 @@
     },
     "permissions": [
         "storage",
-        "activeTab", 
-        "notifications"
+        "activeTab"
     ],
     "host_permissions": [
         "<all_urls>"
     ],
-    "homepage_url": "https://github.com/wangzongming/screenshot-dom"
+    "homepage_url": "https://github.com/diwuwudi123"
 }

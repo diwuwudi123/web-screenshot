@@ -39,6 +39,9 @@ body {
 
 .btns {
     padding-top: 12px;
+    padding-bottom: 12px;
+    flex-wrap: wrap;
+    gap: 10px;
     display: flex;
     justify-content: space-between;
 }
